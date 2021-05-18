@@ -134,6 +134,8 @@ footer{
 }
 
 @media(max-width:640px){
+    header{
+        position:relative;
     #branding{
         float:none;
     }
