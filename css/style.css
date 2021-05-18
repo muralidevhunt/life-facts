@@ -2,6 +2,12 @@ body{
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: rgb(226, 250, 242);
+}
+.tip{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(243, 125, 70);
 }
 li{
     list-style: none;
@@ -70,7 +76,7 @@ section{
     border-radius: 10px;
 }
 #content-3{
-    border-radius: 10px;
+    border-radius: 5px;
     border: 3px solid rgba(243, 96, 59, 0.973);
     padding:50px;
     margin:0 20% 5px 20%;
@@ -85,21 +91,22 @@ section{
     float: left;
 }
 #content-4{
-    border-radius: 10px;
+    border-radius: 5px;
     border:2px solid rgba(243, 96, 59, 0.973);
     padding:5px;
 }
 #content-4 a:hover{
-    color: rgb(48, 53, 59);
+    color: rgb(101, 137, 182);
 }
 .container-2{
     font-size: 20px;
 }
 #content-2{
-    border-radius: 10px;
+    border-radius: 0 5px 5px 0;
     margin: 0 80px 5px 80px;
     padding: 0 50px;
     border: rgba(243, 96, 59, 0.973) 3px solid;
+    border-left: rgba(81, 181, 221, 0.452) 5px solid;
 }
 .source{
     text-align: center;
@@ -136,14 +143,16 @@ footer{
     }
     nav ul{
         margin: -50px 0 10px 0;
+        padding:15px;
+    }
+    #content-2{
+        font-size: smaller;
+        margin:10px;
+        padding:8px;
     }
     #content-3{
-        display: inline-block;
-        border-radius: 10px;
-        border: 3px solid rgba(243, 96, 59, 0.973);
-        padding:50px;
-        margin:0 80px 5px 80px;
-        text-align: center;
-        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 30px;
     }
 }
